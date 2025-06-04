@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 from timm.models.layers import DropPath, Mlp
 from functools import partial
-from models.diffwire import dense_mincut_rewiring, dense_CT_rewiring, dense_mincut_pool
+from model.diffwire import dense_mincut_rewiring, dense_CT_rewiring, dense_mincut_pool
 from torch.nn import Linear
 from torch_geometric.nn import DenseGraphConv
 import matplotlib.pyplot as plt
